@@ -16,7 +16,7 @@ Users can use a Bitcoin wallet address or a Lightning Node to login.&#x20;
 Login is achieved by verifying a signature against a wallet address.
 {% endhint %}
 
-Copy the generated message into your wallet. We will use BlueWallet as an example.
+Copy the generated message into your wallet. We will use [BlueWallet](https://bluewallet.io/) as an example.
 
 ### ⚡ Lightning Node
 
