@@ -1,5 +1,5 @@
 ---
-description: An anonymous login system using Bitcoin.
+description: An anonymous login system using Bitcoin
 ---
 
 # 🆔 NullPass

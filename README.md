@@ -1,5 +1,5 @@
 ---
-description: Welcome to nullbit's official documentation.
+description: Welcome to nullbit's official documentation
 ---
 
 # Welcome
