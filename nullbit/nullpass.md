@@ -8,14 +8,20 @@ description: An anonymous login system using Bitcoin.
 
 Users can use a Bitcoin wallet address or a Lightning Node to login.&#x20;
 
-### Wallet
+### 📃 Wallet
 
 ![](../.gitbook/assets/LWBW.png)
 
-Login is achieved by verifying a signature against a wallet address. If the signature is valid, the system uses the users wallet address as the login credential.
+{% hint style="info" %}
+Login is achieved by verifying a signature against a wallet address.
+{% endhint %}
 
-### Lightning Node
+Copy the generated message into your wallet. We will use BlueWallet as an example.
+
+### ⚡ Lightning Node
 
 ![](../.gitbook/assets/LWLN.png)
 
-Login is achieved by extracting the public key from a signature. If the node that signed the message is visible, the system uses the nodes public key as the login credential.
+{% hint style="info" %}
+Login is achieved by extracting the public key from a signature and checking for a node heartbeat.
+{% endhint %}

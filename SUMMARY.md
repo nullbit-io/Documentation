@@ -11,3 +11,7 @@
 ## API
 
 * [Introduction](api/introduction.md)
+
+## Assets
+
+* [General Guidelines](assets/general-guidelines.md)

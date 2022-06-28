@@ -1,3 +1,7 @@
+---
+description: Welcome to nullbit's official documentation.
+---
+
 # Welcome
 
 {% hint style="info" %}
