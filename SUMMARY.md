@@ -6,7 +6,7 @@
 
 ## nullbit
 
-* [🆔 Login](nullbit/login.md)
+* [🆔 NullPass](nullbit/nullpass.md)
 
 ## API
 
