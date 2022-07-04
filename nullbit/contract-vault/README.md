@@ -14,10 +14,11 @@ The Vault <mark style="color:red;">**cannot**</mark>** ** interact or make any s
 
 ## Get Started
 
-| 📦 GitHub Repository | WIP                                    |
-| -------------------- | -------------------------------------- |
-| 🛂 Code Audit        | WIP                                    |
-| 🔗 Vault Locations   | <p>Ethereum<br>Binance Smart Chain</p> |
+| 📦 GitHub Repository          | WIP                                     |
+| ----------------------------- | --------------------------------------- |
+| 🛂 Code Audit                 | WIP                                     |
+| 🔗 Vault Locations            | <p>Ethereum<br>Binance Smart Chain</p>  |
+| 👷🏻 \[Devs] How to Implement | [**Guide**](implement-the-vault.md)**** |
 
 ## The address(0) Problem
 
