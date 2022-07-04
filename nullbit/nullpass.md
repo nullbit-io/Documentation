@@ -1,8 +1,16 @@
 ---
-description: An anonymous login system using Bitcoin
+description: An anonymous login system leveraging Bitcoin
 ---
 
 # 🆔 NullPass
+
+## The Problem
+
+WIP
+
+## The Solution
+
+WIP
 
 ## Login Flow
 

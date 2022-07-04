@@ -2,11 +2,12 @@
 
 * [Welcome](README.md)
 * [Support](support.md)
-* [Contact Us](contact-us.md)
+* [Connect](connect.md)
 
 ## nullbit
 
 * [🆔 NullPass](nullbit/nullpass.md)
+* [💠 Contract Vault](nullbit/contract-vault.md)
 
 ## API
 
