@@ -5,7 +5,7 @@ description: Get in touch with the team and community
 # Connect
 
 {% hint style="danger" %}
-The nullbit team will **NEVER** send you a direct message on any platform. If anybody approaches you directly pretending to represent nullbit, please block them and report them as spam.
+The nullbit team will <mark style="color:red;">**NEVER**</mark> send you a direct message on any platform. If anybody approaches you directly pretending to represent nullbit, please block them and report them as spam.
 
 Never, under any situation, should you ever give someone your private keys, recovery phrases, or other sensitive information. Immediately block and report anyone that asks for them. Failure to do so might result in loss of funds or information leaks.
 {% endhint %}

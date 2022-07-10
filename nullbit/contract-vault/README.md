@@ -14,11 +14,11 @@ The Vault <mark style="color:red;">**cannot**</mark>** ** interact or make any s
 
 ## Get Started
 
-| 📦 GitHub Repository          | WIP                                     |
-| ----------------------------- | --------------------------------------- |
-| 🛂 Code Audit                 | WIP                                     |
-| 🔗 Vault Locations            | <p>Ethereum<br>Binance Smart Chain</p>  |
-| 👷🏻 \[Devs] How to Implement | [**Guide**](implement-the-vault.md)**** |
+| 📦 GitHub Repository - WIP                               |
+| -------------------------------------------------------- |
+| 🛂 Code Audit - WIP                                      |
+| [🔗 Vault Locations](./#locations)                       |
+| [👷🏻 \[Devs\] How to Implement](implement-the-vault.md) |
 
 ## The address(0) Problem
 
@@ -39,7 +39,7 @@ Our Vault is a smart contract that runs on all our supported blockchains. When a
 If a team requires the ownership to be transferred back to them for any reason, they simply need to wait for the time to elapse and then pay the Vault the required **fee**. The ownership will then automatically be transferred back to the previous owner.
 
 {% hint style="danger" %}
-The **ONLY** address that can reclaim ownership of a contract stored in the Vault is the one that initiated the transfer in the first place. In other words, **ONLY** the previous owner can get ownership of a stored contract in the Vault.
+The <mark style="color:red;">**ONLY**</mark>** ** address that can reclaim ownership of a contract stored in the Vault is the one that initiated the transfer in the first place. In other words, <mark style="color:red;">**ONLY**</mark>** ** the previous owner can get ownership of a stored contract in the Vault.
 {% endhint %}
 
 ### How to lock
@@ -68,8 +68,35 @@ Renouncing contract ownership to the Vault prevents fraudulent activities from h
 
 ## Fees
 
-WIP
+|           | Fee Equivalence                             |
+| --------- | ------------------------------------------- |
+| Locking   | ❎                                           |
+| Restoring | **≈**$20,000 paid in networks' native token |
 
-## Limitations
+{% hint style="info" %}
+The Vault uses Chainlink oracles to get live USD price equivalents so the fee required for ownership restorations is adjusted dynamically.\
+Nullbit is able to chnage the required unlock fee. If communities agree, and the developers approve, fees can be adjusted.
+{% endhint %}
 
-WIP
+## Locations
+
+The Vault is operational on the below networks.
+
+### 🟢 Mainnets
+
+| Network  | Address |
+| -------- | ------- |
+| Ethereum |         |
+| BSC      |         |
+| Polygon  |         |
+| Cronos   |         |
+
+### 🟡 Testnets
+
+| Network | Address |
+| ------- | ------- |
+| Rinkeby |         |
+| Ropsten |         |
+| BSC     |         |
+| Polygon |         |
+| Cronos  |         |
